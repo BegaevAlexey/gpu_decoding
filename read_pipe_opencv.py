@@ -27,3 +27,4 @@ while True:
     pipe.stdout.flush()
 
 cv2.destroyAllWindows()
+pipe.kill()
